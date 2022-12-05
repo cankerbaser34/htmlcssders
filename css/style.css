@@ -1,0 +1,163 @@
+
+
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+body {
+    background-color: rgba(242, 243, 238, 0.76);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+
+
+ 
+
+
+  #header_part{
+
+    width: 100%;
+    height: 300px;
+    background-image:url("../image/logo.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position:fixed;
+  }
+
+ #headerimg {
+
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 50px;
+  position: absolute;
+ }
+
+ #headerimg {
+  position: absolute;
+  -webkit-animation:spin 100s linear infinite;
+  -moz-animation:spin 100s linear infinite;
+  animation:spin 100s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+ .list_names{
+  font-size: 40px;
+  color: rgb(5, 5, 1);
+ }
+
+
+ /*
+ ul {
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(97, 155, 10, 0.103);
+  
+} 
+*/
+
+
+.top_nav ul li  {
+list-style-type: none;
+margin-left: 60px;
+
+}
+
+.top_nav ul li a{
+
+  text-decoration: none;
+  border-style: dashed;
+  padding: 5px;
+}
+
+.top_nav ul li a:hover {
+
+  color: blueviolet;
+  text-decoration: underline;  
+  font-size: 40px;
+  background-color: rgb(0, 0, 0);
+}
+
+.top_nav ul{
+display: flex;
+ flex-direction:row;
+ align-items: center;
+ width: 100%;
+ justify-content: center;
+ margin-top: 60px;
+ 
+}
+
+
+.yenidiv{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top:400px;
+  width: 450px;
+  height: 500px;
+  margin-left: 700px;
+  background-color: rgb(47, 201, 221);
+  
+}
+
+.table_style{
+
+  margin-top: 400px;
+  margin-left: 600px;
+}
+
+.table_style th {
+
+  background-color: bisque;
+ 
+
+}
+
+
+.black{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+  width: 600px;
+  height: 400px;
+  background-color: black;
+
+}
+
+.redsquare{
+
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 5px;
+}
+
+
+.table_style td:hover {
+
+  background-color: cornflowerblue;
+  color: brown;
+  font-size: 17px;
+
+}
+
+
+
+
+  
+
+
+
+
